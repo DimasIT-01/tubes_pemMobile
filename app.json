@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "weather",
+    "slug": "weather",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/rain.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#E6E7E8"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "buildNumber":"1.0.0"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package" : "com.kel1.weather",
+      "versionCode":1
+    },
+    "web": {
+      "favicon": "./assets/cloud.png"
+    }
+  }
+}
